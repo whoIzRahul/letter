@@ -3,6 +3,13 @@
 #envelope:hover .rotate-x-180 {
   transform: rotateX(180deg);
 }
+#envelope:focus-within .rotate-x-180 {
+  transform: rotateX(180deg);
+}
+
+#envelope:focus-within {
+  outline: none; /* Removes default outline if needed */
+}
 
 /* Tailwind Utility for Animation */
 #envelope:hover .scatter {
@@ -15,6 +22,20 @@
   animation: scatterUp2 2s ease-in-out infinite;
 }
 #envelope:hover .scatter2Alt {
+  animation: scatterUp2Alt 2s ease-in-out infinite;
+}
+
+/* Tailwind Utility for Animation */
+#envelope:focus-within .scatter {
+  animation: scatterUp 2s ease-in-out infinite;
+}
+#envelope:focus-within .scatterAlt {
+  animation: scatterUpAlt 2s ease-in-out infinite;
+}
+#envelope:focus-within .scatter2 {
+  animation: scatterUp2 2s ease-in-out infinite;
+}
+#envelope:focus-within .scatter2Alt {
   animation: scatterUp2Alt 2s ease-in-out infinite;
 }
 
