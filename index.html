@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Envelope with Heart</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Include jQuery CDN -->
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+        <link rel="stylesheet" href="./envelope.css">
+    </head>
+    <body
+        class="flex items-center justify-center min-h-screen bg-red-100/30">
+        <div class="envelope-wrapper h-[310px] md:h-[365px] ">
+            <!-- {/* This is the envelope section */} -->
+            <div
+                id="envelope"
+                class="relative w-[340px] md:w-[390px] h-[220px] md:h-[255px] mx-auto rounded-bl-[12px] group rounded-br-[12px] bg-[#EB0B23] top-[50px] shadow-xl">
+                <!-- {/* This is the opening point of the envelope which will be
+                flipped */} -->
+                <div
+                    class="absolute w-0 h-0 z-[5] border border-l-[170px] md:border-l-[195px] border-l-transparent border-r-[170px] md:border-r-[195px] border-r-transparent border-b-[110px] md:border-b-[130px] border-b-transparent border-t-[125px] md:border-t-[145px] rotate-x-180 delay-[5000ms] group-hover:delay-0 group-hover:z-[3] transform transition-all duration-1000 border-[#EB0B23] origin-top ease-in"></div>
+
+                <!-- {/* These are the other three containers of the envelope*/} -->
+                <div
+                    class="absolute w-0 h-0 z-[5] border-l-[170px] md:border-l-[195px] border-l-[#EB0B23]/80 border-r-[170px] md:border-r-[195px] border-r-[#EB0B23]/80 border-b-[110px] md:border-b-[130px] border-b-[#EB0B23]/80 border-t-[110px] md:border-t-[125px] border-t-transparent border rounded-b-[12px]"></div>
+
+                <div
+                    class="letter h-[90%] group-hover:h-[95%] shadow-lg top-[5%] translate-y-0 group-hover:-translate-y-[100px] transform transition-all duration-[4000ms] group-hover:duration-500 ease-in delay-[1000ms] group-hover:delay-[1000ms] bg-white z-[3] relative w-[90%] mx-auto rounded-t-[12px] p-4">
+                    <div
+                        class="opacity-0 transform transition-all group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 duration-[4000ms] group-hover:duration-1000 ease-in delay-0 group-hover:delay-[1000ms]">
+                        Dear Sneha 𓆩ꨄ︎𓆪
+                    </div>
+                    <div
+                        class="text-center w-[80%] mx-auto pt-5 opacity-0 transform transition-all group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 duration-[4000ms] group-hover:duration-1000 ease-in delay-0 group-hover:delay-[1000ms]">
+                        ❤️Happy Valentines Day❤️
+                    </div>
+                    <div
+                        class="pt-2 w-[74%] mx-auto text-center opacity-0 transform transition-all group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 duration-[4000ms] group-hover:duration-1000 ease-in delay-0 group-hover:delay-[1000ms]">
+                        I hope we will get to meet soon, I love you 𓆩ꨄ︎𓆪
+                    </div>
+                    <img
+                        src="./red-heart-icon.svg"
+                        alt="SVG Icon"
+                        class="opacity-0 group-hover:opacity-100 absolute scatter2Alt top-10 left-8"
+                        width="25"
+                        height="25" />
+                    <img
+                        src="./red-heart-icon.svg"
+                        alt="SVG Icon"
+                        class="opacity-0 group-hover:opacity-100 absolute scatter2 top-20 left-4"
+                        width="25"
+                        height="25" />
+                    <img
+                        src="./red-heart-icon.svg"
+                        alt="SVG Icon"
+                        class="opacity-0 group-hover:opacity-100 absolute scatter2Alt top-20 left-0"
+                        width="25"
+                        height="25" />
+                    <img
+                        src="./red-heart-icon.svg"
+                        alt="SVG Icon"
+                        class="opacity-0 group-hover:opacity-100 absolute scatterAlt top-10 -left-4"
+                        width="25"
+                        height="25" />
+                    <img
+                        src="./red-heart-icon.svg"
+                        alt="SVG Icon"
+                        class="opacity-0 group-hover:opacity-100 absolute scatter2Alt top-20 right-4"
+                        width="25"
+                        height="25" />
+                    <img
+                        src="./red-heart-icon.svg"
+                        alt="SVG Icon"
+                        class="opacity-0 group-hover:opacity-100 absolute scatter2Alt top-10 right-0"
+                        width="25"
+                        height="25" />
+                    <img
+                        src="./red-heart-icon.svg"
+                        alt="SVG Icon"
+                        class="opacity-0 group-hover:opacity-100 absolute scatter top-20 right-4"
+                        width="25"
+                        height="25" />
+                    <img
+                        src="./red-heart-icon.svg"
+                        alt="SVG Icon"
+                        class="opacity-0 group-hover:opacity-100 absolute scatter top-10 right-8"
+                        width="25"
+                        height="25" />
+                    <div class></div>
+                </div>
+                <div class="hearts">
+                    <div class="heart a1"></div>
+                    <div class="heart a2"></div>
+                    <div class="heart a3"></div>
+                </div>
+            </div>
+        </div>
+        <!-- <script src="./envelope.js"></script> -->
+    </body>
+</html>
